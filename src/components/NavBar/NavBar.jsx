@@ -3,7 +3,7 @@ import styles from './navbar.module.css';
 
 const NavBar = ({datas}) => {
   return (
-    <div class={styles.navbar}>
+    <div className={styles.navbar}>
         {datas.map((data, index) => (
             <Link to={"/" + index} key={index}>
             <img

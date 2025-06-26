@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import QRCodePage from './components/QRCodePage/QRCodePage';
 import datas from './datas.json';
 import NavBar from './components/NavBar/NavBar';
@@ -29,7 +29,7 @@ const generateRoutes = () => {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* Redirection automatique vers le premier item dans datas.json lorsqu'on se rend sur l'url racine '/' */}
         <Route path="/" element={<Navigate to="/1" />} />
@@ -38,6 +38,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route key={index} {...route} />
         ))}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 );
