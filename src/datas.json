@@ -1,17 +1,17 @@
 [
     {
-      "title": "wildcode school",
+      "title": "test2",
       "qrcodeLink": "https://www.wildcodeschool.com/fr-fr/campus/lyon",
-      "iconPath": "/icons/wcs.png"
+      "iconPath": "/space_qrcode/icons/wcs.png"
     },  
     { 
       "title": "linkedin",
       "qrcodeLink": "https://www.linkedin.com/in/spacecodeur/",
-      "iconPath": "/icons/linkedin.png"
+      "iconPath": "/space_qrcode/icons/linkedin.png"
     },
     {
       "title": "site perso",
       "qrcodeLink": "https://www.spacecodeur.com/about-_me.md",
-      "iconPath": "/icons/me.png"
+      "iconPath": "/space_qrcode/icons/me.png"
     }
 ]
